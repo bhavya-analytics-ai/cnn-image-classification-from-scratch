@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+.conda/
+.env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DATASETS (DO NOT TRACK)
+data/
+splits/
+
+# Misclassification images
+misclassified_seat_aug/
+misclassified_seat_no_aug/
+misclassified_toilet_aug/
+misclassified_toilet_no_aug/
+
+# Models (large)
+models/
+*.pth
+*.pt
+*.onnx
+
+# Training runs (large)
+runs/
+teammate_runs/
+logs/
+
+# Large notebooks
+notebooks/yolo_segmentation.ipynb
+
+# OS
+.DS_Store
+labels/
+splits/
+misclassified_seat_aug/
+misclassified_seat_no_aug/
+misclassified_toilet_aug/
+misclassified_toilet_no_aug/
